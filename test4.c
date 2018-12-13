@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define SIZE=100
 
 int main(void){
-	char str1[]="eakdfjwaeirjakdaf";
+	char str1[SIZE]="eakdfjwaeirjakdaf";
 	str2 = 'a';
 
 	strtok_he(&str1,&str2);
