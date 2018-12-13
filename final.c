@@ -11,16 +11,18 @@ int main(void){
 
 }
 
-void strtok_he(char *str1,const char *str2){
-		
-	while(*str1!='\0'){
-		if(str1[0]!=str2[0]){
-				printf("%c",str1[0]);
-				str1++;
-				}
-				else{
-				printf("\n");
-				str1++;
-				}
-				}
-				}
+void my_strtok(char *str1,char *str2){
+    
+	while(1){
+ 		if(*str1 != '\0'){
+      				if
+					(*str1 == *str2) printf("\n");
+      				else
+					printf("%c",*str1);
+      				str1++;
+    				}
+		else
+			break;
+
+    		printf("\n");
+}
